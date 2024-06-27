@@ -8,6 +8,9 @@ def main():
     Make your code here
     """
 
+    result = 1 if number % 2 != 0 else 0
+    
+
     if result:
         print(f'The value {number} is an odd number')
     else:
